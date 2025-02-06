@@ -1,4 +1,9 @@
 # simple_calculator.py
+"""
+This module contains basic arithmetic operations including addition, subtraction,
+multiplication, and division. It also provides a simple example of usage through
+a main function.
+"""
 
 def add(a, b):
     """Adds two numbers."""
@@ -19,6 +24,10 @@ def divide(a, b):
     return a / b
 
 def main():
+    """
+    Main function to demonstrate the calculator operations.
+    It performs addition, subtraction, multiplication, and division on two numbers.
+    """
     num1 = 10
     num2 = 5
     print(f"Sum: {add(num1, num2)}")
